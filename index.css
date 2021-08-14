@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: black;
+  }
+  p {
+    font-family: 'Lora', serif;
+  }
+  
+
+.mainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color: #A68A99;
+	color: white;
+	height: 50px;
+}
+.siteLogo {
+	display: flex;
+	align-items: center;
+	color: #41481F;
+	font-weight: bolder;
+}
+
+
+/* Navigation Bar */
+.mainNavigation {
+	display: flex;
+	align-items: center;
+}
+
+.mainNavItem {
+	padding: 0 16px;
+	color: #fff;
+}
+.mainNavItem a {
+	color: #fff;
+	text-decoration: none;
+}
+.mainNavItem a:hover {
+	outline: 1px dotted #fff;
+}
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(../Images/casestudies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+/* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+/* Cards */
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .caseStudies  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  .card-img-overlay {
+      text-align: left;
+      padding-top: 50px;
+  }
+
+/* Footer */
+.footerNavigation {
+	display: flex;
+	align-items: center;
+	background-color: #A68A99;
+	height: 50px;
+	color: white;
+}
+
+.footerItem {
+	padding: 0 16px;
+}
+.footerItem a {
+	color: #fff;
+}
+.footerItem a:hover {
+	outline: 1px dotted #fff;
+	text-decoration: none;
+}
+.footerCopy { 
+  font-size: 10px;
+}
+
+
+
